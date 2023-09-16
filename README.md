@@ -17,4 +17,4 @@ We used HTML, CSS, and Javascript to code a Chrome extension, and Python to use 
 <br/>  
 <br/> 
 HackCMU 2023 Project.
-https://devpost.com/software/revolutions#updates
+https://devpost.com/software/revolutions
