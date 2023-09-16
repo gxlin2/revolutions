@@ -5,14 +5,15 @@ body, html {
     background-color: rgb(6, 2, 25);
 }
 
-
+.button1 {
+    background-color: none;
+}
 
 /*Sun*/
 div1 {
     position: absolute;
     top: 62px;
     right: 300px;
-    
 }
 
 /*Earth*/
@@ -22,12 +23,28 @@ div2 {
     right: 200px;
 }
 
-
 /*Moon*/
 div3 {
     position: absolute;
-    top: 200px;
-    right: 200px;
+    top: 230px;
+    right: 320px;
 }
 
+div4 {
+    text-align: right;
+}
 
+/* Dotted Rocket Line*/
+div5 {
+    position: absolute;
+    top: 90px;
+    right: 50px;
+}
+
+.p1 {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-family: monospace;
+    color:antiquewhite;
+    size: 15px; ;
+  }
