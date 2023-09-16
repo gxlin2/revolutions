@@ -1,0 +1,27 @@
+body, html {
+    width: 500px;
+    height: 350px;
+    font-family: "Lucida Console", monospace;
+    background-color: rgb(6, 2, 25);
+}
+
+
+
+/*Sun*/
+div1 {
+    position: absolute;
+    top: 115px;
+    right: 300px;
+    
+}
+
+/*Earth*/
+div2 {
+    position: relative;
+    top: 300px;
+    right: 800px;
+    left: 100px;
+    
+
+}
+

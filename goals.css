@@ -1,0 +1,35 @@
+body, html {
+    width: 500px;
+    height: 350px;
+    font-family: "fontsheet";
+    margin: 10px;
+  }
+   
+title {
+    font-family: monospace;
+    size: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    width: 70%;
+    color:black;
+    border: antiquewhite;
+    background-color:antiquewhite;
+    transition-duration: 0.3s;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px;
+    font-family: monospace
+}
+
+.button:hover {
+    border: 2px solid antiquewhite;
+    background-color:rgb(6, 2, 25);
+    color: antiquewhite;
+    font-family: monospace
+}
+  
