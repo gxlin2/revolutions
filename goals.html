@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="goals.css">
+
 </head>
 <body style = "background-color: rgb(6, 2, 25)">
 
@@ -16,6 +17,33 @@
     <button class="button button1">Sleep More</button>
 </div>
 
+
+<button class = "button button1" onclick="Geeks()">
+    Press me!
+</button>
+<br><br>
+<div id="GFG"></div>
+
+<script>
+    function Geeks() {
+        let myDiv = document.getElementById("GFG");
+        // creating button element
+        let button = document.createElement('BUTTON');
+        // creating text to be
+        //displayed on button
+        let text = document.createTextNode("Button");
+         
+        // appending text to button
+        button.appendChild(text);
+        // appending button to div
+        myDiv.appendChild(button);;
+    }
+</script>
+
+<div>
+    <p style="font-family: Monospace">
+    <a href="main.html" target = "_self"> <img src="w3images/Earth.png" style="height:100%; max-height:100px";> </a>
+  </div>      
 
 </body>
 </html>

@@ -1,10 +1,34 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>HTML var Tag</title>
-   </head>
-   <body>
-      <p>The equations: <var>fdfdsf</var> - <var>4z</var> = <var>2y</var> + 3 and
-         <var>x</var> + <var>5z</var> = <var>3y</var> + 6</p>
-   </body>
+<body>
+
+<p>Change the date of the date field, and then click the button below.</p>
+
+<input type="date" id="myDate" value="2000-05-05">
+
+<p>Note that the default value is not affected when you change the value of the date field.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+  
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  const x = document.getElementById("myDate");
+  let defaultVal = x.defaultValue;
+  let currentVal = x.value;
+  
+  if (defaultVal == currentVal) {
+    document.getElementById("demo").innerHTML = "Default value and current value is the same: "
+    + x.defaultValue + " and " + x.value
+    + "<br>Change the value of the date field to see the difference!";
+  } else {
+    document.getElementById("demo").innerHTML = "The default value was: " + defaultVal
+    + "<br>The new, current value is: " + currentVal;
+  }
+}
+</script>
+
+</body>
 </html>
+

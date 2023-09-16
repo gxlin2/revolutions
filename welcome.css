@@ -1,0 +1,29 @@
+body, html {
+    width: 500px;
+    height: 350px;
+    font-family: "Lucida Console", monospace;
+    background-color: rgb(6, 2, 25);
+}
+
+div2 {
+    position: absolute;
+    top: 260px;
+    left: 90px;
+}
+
+div3 {
+    position: absolute;
+    left: 220px;
+}
+
+/* div5 {
+    position:absolute;
+    top: -290px;
+    left: -190px;
+} */
+
+div4 {
+    position: absolute;
+    top: -270px;
+    left: -87px;
+}

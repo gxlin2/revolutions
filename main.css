@@ -5,10 +5,6 @@ body, html {
     background-color: rgb(6, 2, 25);
 }
 
-.button1 {
-    background-color: none;
-}
-
 /*Sun*/
 div1 {
     position: absolute;
@@ -34,12 +30,21 @@ div4 {
     text-align: right;
 }
 
+
 /* Dotted Rocket Line*/
 div5 {
     position: absolute;
-    top: 90px;
-    right: 50px;
+    bottom: 85px;
+    left: 423px;
 }
+
+/*Rocket*/
+div6 {
+    position: absolute;
+    top: 220px;
+    right: 2.5px;
+}
+
 
 .p1 {
     writing-mode: vertical-rl;
