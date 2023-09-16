@@ -1,4 +1,4 @@
-if (localStorage.getItem("bday_ms") === null) {
+if (localStorage.getItem("bday_ms") == null) {
     location.href = "welcome.html"
 }
 else {

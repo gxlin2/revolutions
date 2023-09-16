@@ -3,6 +3,8 @@ body, html {
     height: 350px;
     font-family: "fontsheet";
     margin: 10px;
+    background-image: url("w3images/StarrySky.jpeg");
+    background-size: 400px;
   }
    
 title {
@@ -10,23 +12,18 @@ title {
     size: 20px;
 }
 
-div4 {
-    
-}
-
 .button {
-    padding: 15px 15px;
     border: none;
-    width: 70%;
+    padding: 10px 20px;
+    width: 60%;
     color:black;
     border: antiquewhite;
     background-color:antiquewhite;
-    transition-duration: 0.3s;
+    transition-duration: 0.15s;
     text-align: center;
     font-size: 15px;
     cursor: pointer;
-    display: inline-block;
-    margin: 10px;
+    margin: 5px;
     font-family: monospace
 }
 
@@ -37,5 +34,28 @@ div4 {
     font-family: monospace
 }
 
+.buttonadd {
+    padding: 10px 20px;
+    size: 10%;
+    border:none;
+    font-size: 15px;
+    box-shadow: none;
+	background-color: rgb(6, 2, 25);
+    color:antiquewhite;
+    font-family: monospace;
+}
+
+.buttonadd:hover{
+    background-color: antiquewhite;
+    color: black
+}
+
+p1 {
+    padding: 10px 20px;
+    size: 17px;
+    color: antiquewhite;
+    font-family: monospace;
+
+}
 
   

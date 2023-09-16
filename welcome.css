@@ -2,12 +2,14 @@ body, html {
     width: 500px;
     height: 350px;
     font-family: "Lucida Console", monospace;
-    background-color: rgb(6, 2, 25);
+    /* background-color: rgb(6, 2, 25); */
+    background-image: url("w3images/StarrySky.jpeg");
+    background-size: 400px;
 }
 
 div2 {
     position: absolute;
-    top: 260px;
+    top: 270px;
     left: 90px;
 }
 
@@ -27,3 +29,4 @@ div4 {
     top: -290px;
     left: -87px;
 }
+

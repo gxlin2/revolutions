@@ -8,47 +8,39 @@
 <link rel="stylesheet" href="goals.css">
 
 </head>
-<body style = "background-color: rgb(6, 2, 25)">
+<body>
 
 <p style = "color:antiquewhite; font-family: monospace;"> GOALS </p>
+<p class = "w3-top" style = "color:antiquewhite; font-family: monospace; text-align: right;"> +      - </p>
 
 <!-- Add a background color and large text to the whole page -->
 <div>
-    <button class="button button1">Sleep More</button>
+    <button class="button button1">Sleep More.</button>
+    <button class="buttonadd">+</button> <button class="buttonadd">-</button>
+    <p1 id="percent1"></p1>
+    <script src="goals.js"></script> 
 </div> 
 <div>
-    <button class="button button1">Be a Better Public Speaker</button>
+    <button class="button button1">Be a Better Public Speaker.</button>
+    <button class="buttonadd">+</button> <button class="buttonadd">-</button>
 </div> 
-
+<div>
+    <button class="button button1">Learn something valuable everyday.</button>
+</div> 
 
 <input id="my-goal" placeholder="What's your newest goal?" />
 <div>
-    <button class="apiSuggestions">Next Step Suggestions</button>
+    <p id='demo' style='display: none'>Hello Javascript</p>     
+    <button type='button' onclick="toggleText()">HERE</button>
+    <script src="goals.js"></script> 
 </div> 
 <div id="responseContainer"></div>
 <!-- <button id="my-button">Submit</button>
 <button id="my-other-button"></button> -->
-<script src="goals.js"></script>
-
-<script>
-    function Geeks() {
-        let myDiv = document.getElementById("GFG");
-        // creating button element
-        let button = document.createElement('BUTTON');
-        // creating text to be
-        //displayed on button
-        let text = document.createTextNode("Button");
-         
-        // appending text to button
-        button.appendChild(text);
-        // appending button to div
-        myDiv.appendChild(button);;
-    }
-</script>
 
 <div>
     <p style="font-family: Monospace">
-    <a href="main.html" target = "_self"> <img src="w3images/Earth.png" style="height:100%; max-height:100px";> </a>
+    <a href="main.html" target = "_self"> <img src="w3images/Earth.png" style="height:100%; max-height:20px";> </a>
 </div>      
 
 
