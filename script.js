@@ -7,6 +7,5 @@ const year = day * 365;
 const d = new Date();
 let years = Math.round(d.getTime() / year);
 
-document.getElementById('test').innerHTML = years;
-
+document.getElementById("test").innerHTML = years;
 
