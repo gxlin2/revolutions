@@ -14,4 +14,8 @@ Revolutions is a goal-setting Chrome extension that helps people track their lon
 We used HTML, CSS, and Javascript to code a Chrome extension, and Python to use a GPT API. We collaborated using GitHub and VS Code Live Share.
 
 
+
+
+
+
 HackCMU 2023 Project.
