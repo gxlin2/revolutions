@@ -7,6 +7,6 @@
       "128": "w3images/icon-128.png"
     },
     "action": {
-      "default_popup": "welcome.html"
+      "default_popup": "buffer.html"
     }
   }

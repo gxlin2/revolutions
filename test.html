@@ -2,32 +2,15 @@
 <html>
 <body>
 
-<p>Change the date of the date field, and then click the button below.</p>
+  <p>Change the date of the date field, and then click the button below.</p>
 
-<input type="date" id="myDate" value="2000-05-05">
+  <input type="date" id="myDate" value="2000-05-05">
 
-<p>Note that the default value is not affected when you change the value of the date field.</p>
+  <p>Note that the default value is not affected when you change the value of the date field.</p>
 
-<button type="button" onclick="myFunction()">Try it</button>
-  
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-  const x = document.getElementById("myDate");
-  let defaultVal = x.defaultValue;
-  let currentVal = x.value;
-  
-  if (defaultVal == currentVal) {
-    document.getElementById("demo").innerHTML = "Default value and current value is the same: "
-    + x.defaultValue + " and " + x.value
-    + "<br>Change the value of the date field to see the difference!";
-  } else {
-    document.getElementById("demo").innerHTML = "The default value was: " + defaultVal
-    + "<br>The new, current value is: " + currentVal;
-  }
-}
-</script>
+  <button id="myButton">Try it</button>    
+  <p id="demo"></p>
+  <script src="test.js"></script>
 
 </body>
 </html>
